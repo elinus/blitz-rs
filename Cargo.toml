@@ -1,0 +1,16 @@
+[package]
+name = "blitz-rs"
+version = "0.1.0"
+edition = "2024"
+description = "Fast concurrent HTTP benchmarking tool"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourname/blitz-rs"
+readme = "README.md"
+keywords = ["http", "benchmark", "load-testing", "cli", "performance"]
+categories = ["command-line-utilities", "network-programming"]
+
+[[bin]]
+name = "blitz"
+path = "src/main.rs"
+
+[dependencies]

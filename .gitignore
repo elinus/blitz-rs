@@ -1,0 +1,25 @@
+# Rust build output
+target/
+
+# Lockfile
+# Keep Cargo.lock for binaries (CLI apps)
+# Ignore it only for libraries
+# For your project (blitz-rs), KEEP Cargo.lock committed
+
+# Editor files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment secrets
+.env
+
+# Coverage / profiling (optional)
+coverage/
+*.profraw
+*.profdata
