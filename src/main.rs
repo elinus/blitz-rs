@@ -1,13 +1,6 @@
-mod bench;
-mod cli;
-mod config;
-mod error;
-mod http;
-mod output;
-mod source;
+use blitz_rs;
 
-use crate::cli::CliArgs;
-use crate::error::AppError;
+use blitz_rs::{cli::CliArgs, error::AppError, output};
 
 #[tokio::main]
 async fn main() {
