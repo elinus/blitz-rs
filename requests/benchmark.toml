@@ -1,0 +1,7 @@
+url = "https://httpbin.org/get"
+method = "GET"
+
+[headers]
+Authorization = "Bearer abc"
+
+body = '{"user":"test"}'

@@ -1,0 +1,7 @@
+url = "https://api.example.com/login"
+method = "POST"
+
+[headers]
+Authorization = "Bearer abc"
+
+body = '{"user":"test"}'
